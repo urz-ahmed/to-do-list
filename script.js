@@ -96,6 +96,7 @@ function editItem(button) {
 
 function clearStorage() {
     localStorage.clear();
+    updateList(); 
 }
 
 function updateList() {
