@@ -95,8 +95,8 @@ function editItem(button) {
 }
 
 function clearStorage() {
-    localStorage.clear();
-    updateList(); 
+    itemList.innerHTML = ''; 
+    localStorage.clear();    
 }
 
 function updateList() {
